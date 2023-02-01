@@ -8,12 +8,11 @@
 
 const user = {};
 user.name = "John"; //add name: value as a user property
-// console.log(user);
-
-user.surname = "Smith";
-user.name = "Pete";
+user.surname = "Smith";//add surname: value as a user property
+user.name = "Pete"; // updating name value
 // delete user.name;
 console.log(user);
 
 // output:
 // { name: 'Pete', surname: 'Smith' }
+
